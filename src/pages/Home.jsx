@@ -1,8 +1,11 @@
 import React from 'react';
 import Calendar from '../components/comp_pages/_Home/Calendar';
 import Hello from '../components/comp_pages/_Home/Hello';
+import ProgrammeJour from '../components/comp_pages/_Home/ProgrammeJour';
+import Progression from '../components/comp_pages/_Home/Progression';
 import Container from '../components/Container';
 import Navigation from '../components/Navigation';
+
 
 const Home = () => {
     return (
@@ -12,6 +15,8 @@ const Home = () => {
             <Container />
             <Hello />
             <Calendar />
+            <Progression />
+            <ProgrammeJour/>
         
 
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Biblio from '../components/comp_pages/_Exercices/Biblio';
 import Container from '../components/Container';
 import Navigation from '../components/Navigation';
 
@@ -7,7 +8,8 @@ const Exercices = () => {
         <div>
             <Navigation />
             <Container />
-            <h1>Exercices</h1>
+            <Biblio />
+
         </div>
     );
 };

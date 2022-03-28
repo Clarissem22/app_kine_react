@@ -1,4 +1,5 @@
 import React from 'react';
+import Param from '../components/comp_pages/_Paramètres/Param';
 import Container from '../components/Container';
 import Navigation from '../components/Navigation';
 
@@ -7,7 +8,8 @@ const Parametres = () => {
         <div>
             <Navigation />
            <Container />
-            <h1>Parametres</h1>
+           <Param/>
+            
         </div>
     );
 };

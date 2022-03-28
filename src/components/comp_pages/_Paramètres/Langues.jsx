@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Programme = () => {
+const Langues = () => {
     return (
         <div>
-            
+            <h1>Langues : </h1>
         </div>
     );
 };
 
-export default Programme;
+export default Langues;
